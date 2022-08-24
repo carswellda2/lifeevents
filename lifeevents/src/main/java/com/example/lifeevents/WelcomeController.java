@@ -14,7 +14,7 @@ public class WelcomeController {
 	
 	@GetMapping("/welcome")  
 	public String welcome() {
-		System.out.println("Someone is hitting your server from the web ...");
+		System.out.println("Someone is hittings your server from the web ...");
 		System.out.println("Some events .... ");
 		return "Dave's life events web service is heres ...not there ... everythrer "; 
 	}
