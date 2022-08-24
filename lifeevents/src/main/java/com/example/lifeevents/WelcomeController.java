@@ -19,9 +19,9 @@ public class WelcomeController {
 		return "Dave's life events web service is heres ...not there ... everythrer "; 
 	}
 	
-	@PostMapping 
+	@PostMapping("/welcome") 
 	public ResponseEntity<String> print(@RequestBody String requestBody) {
-		System.out.println("##### Webhooks2 .... #####" + requestBody);
+		System.out.println("##### Calling your post  .... #####" + requestBody);
 		return new ResponseEntity<String>(requestBody, HttpStatus.OK); 
 	}
 	
