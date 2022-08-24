@@ -16,7 +16,7 @@ public class WelcomeController {
 	public String welcome() {
 		System.out.println("Someone is hitting your server from the web ...");
 		System.out.println("Some event .... ");
-		return "Dave's life events web service is here ...not there ... everythrer "; 
+		return "Dave's life events web service is heres ...not there ... everythrer "; 
 	}
 	
 	@PostMapping 
