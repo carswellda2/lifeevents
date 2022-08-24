@@ -10,6 +10,7 @@ public class LifeeventsApplication {
 		SpringApplication.run(LifeeventsApplication.class, args);
 		System.out.println("Woot!, there it is .... ");
 		System.out.println("Here'a another change .... ");
+		System.out.println("Making a wednesday change ");
 	}
 
 }
