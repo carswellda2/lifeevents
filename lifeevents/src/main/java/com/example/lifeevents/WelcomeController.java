@@ -21,7 +21,7 @@ public class WelcomeController {
 	
 	@PostMapping("/welcome") 
 	public ResponseEntity<String> print(@RequestBody String requestBody) {
-		System.out.println("##### Calling your post today  .... #####" + requestBody);
+		System.out.println("##### Calling your post todays  .... #####" + requestBody);
 		return new ResponseEntity<String>(requestBody, HttpStatus.OK); 
 	}
 	
