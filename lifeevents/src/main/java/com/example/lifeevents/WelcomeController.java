@@ -19,7 +19,7 @@ public class WelcomeController {
 	@GetMapping("/welcome")  
 	public String welcome() {
 		logger.info("Someone is hitting your server from the web ...");
-		return "Successfull GET call to the webhook .... most likely came from a browser ....  "; 
+		return "Successful GET call to the webhook .... most likely came from a browser ....  "; 
 	}
 	
 	@PostMapping("/welcome") 
