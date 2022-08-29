@@ -1,5 +1,7 @@
 package com.example.lifeevents;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -8,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController 
 @RequestMapping("/api/webhooks") 
 public class WebHookController {
+	
+	final static Logger logger = LogManager.getLogger(WebHookController.class);
 	
 	//@KafkaListener(topics = "NewTopic2", groupId = "group_id")
 
