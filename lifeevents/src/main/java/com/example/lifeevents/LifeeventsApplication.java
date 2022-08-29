@@ -27,7 +27,7 @@ public class LifeeventsApplication {
 		
 	
 		// DAC 08.22.2022 
-//		@Bean
+//		@Bean   
 //		CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) { 
 //			return args -> { 
 //				kafkaTemplate.send("daves", "hello kafka"); 
